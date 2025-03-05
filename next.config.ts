@@ -4,7 +4,7 @@ import path from 'path';
 
 const nextConfig: NextConfig = {
   experimental: {
-    ppr: 'incremental'
+    // ppr: 'incremental'
   },
   appDir: true,
   webpack: (config: any) => {
